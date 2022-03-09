@@ -19,14 +19,14 @@ type PyThreadState C.PyThreadState
 type PyGILState C.PyGILState_STATE
 
 //PyEval_InitThreads : https://docs.python.org/3/c-api/init.html#c.PyEval_InitThreads
-func PyEval_InitThreads() {
-	C.PyEval_InitThreads()
-}
+// func PyEval_InitThreads() {
+// 	C.PyEval_InitThreads()
+// }
 
 //PyEval_ThreadsInitialized : https://docs.python.org/3/c-api/init.html#c.PyEval_ThreadsInitialized
-func PyEval_ThreadsInitialized() bool {
-	return C.PyEval_ThreadsInitialized() != 0
-}
+// func PyEval_ThreadsInitialized() bool {
+// 	return C.PyEval_ThreadsInitialized() != 0
+// }
 
 //PyEval_SaveThread : https://docs.python.org/3/c-api/init.html#c.PyEval_SaveThread
 func PyEval_SaveThread() *PyThreadState {
