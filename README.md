@@ -1,4 +1,4 @@
-**This fork is a quick hack to make this module work with Python 3.8**
+**This fork is a quick hack to make this module work with Python 3.9**
 
 # go-python3
 
