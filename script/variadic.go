@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"os"
 
-	python "github.com/christian-korneck/go-python3"
+	python "github.com/guannie/go-python3"
 )
 
 var (
