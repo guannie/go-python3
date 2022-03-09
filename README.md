@@ -1,4 +1,5 @@
 **This fork is a quick hack to make this module work with Python 3.9**
+https://bugs.python.org/issue40428
 
 # go-python3
 
